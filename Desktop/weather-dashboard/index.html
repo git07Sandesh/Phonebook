@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <p>Get real-time weather updates and forecasts</p>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="city-input" placeholder="Enter a city...">
+            <button id="get-weather">Search</button>
+        </div>
+
+        <div id="weather" class="weather-card">
+            <!-- Weather information will appear here -->
+        </div>
+
+        <div id="forecast" class="forecast-container">
+            <!-- Forecast information will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
